@@ -19,8 +19,6 @@ def solution(bandage, health, attacks):
                 bdg_cnt = bandage[0]
             if hp > health:
                 hp = health
-        print(hp)
-    print(hp)
     
     if hp < 1:
         answer = -1
